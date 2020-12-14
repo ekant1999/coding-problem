@@ -12,7 +12,7 @@ Solution-2 Recursive version
 
 **Problem 2**
 
-Write a C function to return minimum and maximum in an array. Your program should make the minimum number of comparisons.
+Write a program to return minimum and maximum in an array. Your program should make the minimum number of comparisons.
 
 Solution-1 Linear version
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/MinMaxElementOfArrayUsingLinearserach.cpp)
