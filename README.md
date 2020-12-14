@@ -8,7 +8,7 @@ Solution-1 Iterative version
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/ReverseArray.cpp)
 
 Solution-2 Recursive version
-[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/ReverseArrayUsingRecursion.cpp)
+[Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/ReverseArrayUsingRecursion.cpp)
 
 **Problem 2**
 
