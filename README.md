@@ -35,7 +35,8 @@ No. of comparisons (in worst case) = 2*(n-1) = 2n - 2
 Both the above approaches take total N comparision the below solution takes lesser.
 
 ***Solution-3 Divide and Conquer : Tournament Method***
-[Solution-3.cpp]()
+
+[Solution-3.cpp](https://github.com/ekant1999/coding-problem/blob/main/MinMaxOfArrayUsingTournamentMethod.cpp)
 Time complexity = O(n) and space complexity = O(logn) (For recursion call stack)
 
 No. of comparisons (in worst case) = T(n) = 3n/2 - 2
