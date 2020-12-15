@@ -6,18 +6,24 @@ struct Pair
     int min;
     int max;
 };
-
+/*In this function we will recursively divide the array until there are two or one element in new array 
+Then will will compare the two element and return respective min and max value
+If the new array has only one element the we will return that element as min and max
+*/
 struct Pair Min_Max_Finder(int A[], int start, int end)
 {
     int min = INT32_MAX, max = INT32_MIN;
     struct Pair minmaxpair;
-
+    
+/* base case:1 the function will return when both index are referring to the same position. eg arr[0]*/
+    
     if (start == end)
     {
         minmaxpair.max = A[start];
         minmaxpair.min = A[start];
         return minmaxpair;
     }
+    /*base case:2 when there are only two element that we will comapre the two elements for e.g. arr[0] and arr[1]*/
     else if (start + 1 == end)
     {
         if (A[start] > A[end])
