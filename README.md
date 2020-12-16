@@ -44,3 +44,15 @@ Time complexity = O(n) and space complexity = O(logn) (For recursion call stack)
 
 No. of comparisons (in worst case) = T(n) = 3n/2 - 2
 
+## Problem 3
+
+Given an array, cyclically rotate an array by one.
+
+The first line of input contains an integer T denoting the number of test cases. Then T test cases follow. Each test case contains an integer n denoting the size of the array. Then following line contains 'n' integers forming the array. 
+
+***Solution-1 Linear version***
+
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/CyclicallyRotateArrayByOne.cpp) .
+Time complexity = O(n) and space complexity = O(1)
+
+
