@@ -56,3 +56,10 @@ The first line of input contains an integer T denoting the number of test cases.
 Time complexity = O(n) and space complexity = O(1)
 
 
+## Problem 3
+***Solution-1 Linear version***
+
+[Solution-1.cpp]() .
+Time complexity = O(n) and space complexity = O(1)
+
+
