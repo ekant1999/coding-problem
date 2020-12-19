@@ -13,7 +13,12 @@ int func(int n)
     return 0;
 }
 /*
-func(5)= (func(4)+5)+(func(3)+4)+(func(2)+3)+(func(1)+2)+(func(0)+1);
+func(5)= (func(4)+5)=15
+func(4)= (func(3)+4);
+func(3)=(func(2)+3);
+funct(2)=(func(1)+2);
+func(1)=(func(0)+1);
+func(0)=0;
 */
 int main()
 {
