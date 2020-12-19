@@ -54,9 +54,15 @@ Time complexity = O(n) and space complexity = O(1)
 
 
 ## Problem 3
-***Solution-1 Linear version***
 
-[Solution-1.cpp]() .
-Time complexity = O(n) and space complexity = O(1)
+Implement the function which uses the static and global variable in the recursive function.
+
+***Solution-1 using global variable***
+
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/recursionGlobalVariable.cpp) .
+
+***Solution-2 using static variable***
+
+[Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/recursionStaticVariable.cpp) .
 
 
