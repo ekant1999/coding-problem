@@ -69,12 +69,10 @@ Implement the function which uses the static and global variable in the recursiv
 
 Write a program to print fibonacci series using recursion.
 
-***Solution-1 ***
-
+***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/fibonacciRecursion1.cpp).
 
-***Solution-2 ***
-
+***Solution-2***
 [Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/fibonacciRecursion2.cpp).
 
 
