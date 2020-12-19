@@ -4,7 +4,7 @@
 using namespace std;
 // In this fuction the number n is add while function returning and not during the fucntion calling.
 int func(int n)
-{   static int x;
+{
     if(n>0)
     {
         x++;
