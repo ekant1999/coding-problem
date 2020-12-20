@@ -75,4 +75,11 @@ Write a program to print fibonacci series using recursion.
 ***Solution-2***
 [Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/fibonacciRecursion2.cpp).
 
+## Problem 5
+
+Write a program to solve tower of hanoi using recursion.
+
+***Solution-1***
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/towerOfHanoi.cpp).
+
 
