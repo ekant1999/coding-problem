@@ -82,4 +82,12 @@ Write a program to solve tower of hanoi using recursion.
 ***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/towerOfHanoi.cpp).
 
+## Problem 6
+
+Write a program to check a array sorted or not using recursion.
+
+***Solution-1***
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/isSortedRecursion.cpp).
+
+
 
