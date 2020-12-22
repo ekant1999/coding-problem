@@ -9,7 +9,6 @@ Given an array , the task is to reverse the array.
 Time complexity = O(n) and space complexity = O(1)
 
 ***Solution-2 Recursive version***
-
 [Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/ReverseArrayUsingRecursion.cpp).
 Time complexity = O(n) and space complexity = O(n) (For recursion call stack)
 
