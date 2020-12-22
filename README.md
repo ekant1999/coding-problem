@@ -90,7 +90,7 @@ Write a program to check a array sorted or not using recursion.
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/isSortedRecursion.cpp).
 
 
-## Problem 6
+## Problem 7
 
 Write a program to rotate a array right by d.
 
