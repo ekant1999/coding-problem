@@ -104,9 +104,12 @@ Time complexity = O(n*d) and space complexity = O(1)
 [Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/RotateArrayUsingTempArray.cpp).
 Time complexity = O(n) and space complexity = O(d)
 
-***Solution-3 Juggling Algorithm***
-[Solution-3.cpp]().
+***Solution-3 Reversal algorithm***
+[Solution-3.cpp](https://github.com/ekant1999/coding-problem/blob/main/reversalAlgoForRotation.cpp).
 Time complexity = O(n) and space complexity = O(1)
 
+***Solution-4***
+[Solution-4.cpp]().
+Time complexity = O(n) and space complexity = O(1)
 
 
