@@ -100,8 +100,8 @@ Time complexity = O(n) and space complexity = O(d)
 [Solution-3.cpp](https://github.com/ekant1999/coding-problem/blob/main/reversalAlgoForRotation.cpp).
 Time complexity = O(n) and space complexity = O(1)
 
-***Solution-4***
-[Solution-4.cpp]().
+***Solution-4 Juggling algorithm***
+[Solution-4.cpp](https://github.com/ekant1999/coding-problem/blob/main/RotationUsingJugglingAlgo.cpp).
 Time complexity = O(n) and space complexity = O(1)
 
 
