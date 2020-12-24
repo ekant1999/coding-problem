@@ -131,10 +131,10 @@ Note:Could you solve this problem without using the library's sort function?
 [Solution-1.cpp]().
 Time complexity = O(n) and space complexity = O(1) 
 
-***Solution-1 Dutch flag algorithm / 3-way partitioning***
+***Solution-2 Dutch flag algorithm / 3-way partitioning***
  one-pass algorithm using only O(1) constant space.
  
-[Solution-1.cpp]().
+[Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/DutchFlagAlgo.cpp).
 Time complexity = O(n) and space complexity = O(1) 
 
 
