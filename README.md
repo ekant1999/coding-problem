@@ -105,3 +105,17 @@ Time complexity = O(n) and space complexity = O(1)
 Time complexity = O(n) and space complexity = O(1)
 
 
+## Problem 8
+
+An array contains both positive and negative numbers in random order. Rearrange the array elements so that all negative numbers appear before all positive numbers.
+Example: input={-1, 3, -9, 5, 6, -4, -5, -6, 7, -10};  output= {-1, -9, -4, -5, -6, -10, 5, 6, 7, 3}
+
+Note: Order of elements is not important here.
+
+
+***Solution-1 Two Pointer Technique***
+[Solution-1.cpp]().
+Time complexity = O(n) and space complexity = O(1) 
+
+
+
