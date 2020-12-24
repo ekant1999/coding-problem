@@ -120,4 +120,24 @@ Note: Order of elements is not important here.
 Time complexity = O(n) and space complexity = O(1) 
 
 
+## Problem 9
+Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.
+
+Here, we will use the integers 0, 1, and 2 to represent the color red, white, and blue respectively.
+
+Note:Could you solve this problem without using the library's sort function?
+
+***Solution-1 Counting technique***
+[Solution-1.cpp]().
+Time complexity = O(n) and space complexity = O(1) 
+
+***Solution-1 Dutch flag algorithm / 3-way partitioning***
+ one-pass algorithm using only O(1) constant space.
+ 
+[Solution-1.cpp]().
+Time complexity = O(n) and space complexity = O(1) 
+
+
+
+
 
