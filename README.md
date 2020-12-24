@@ -86,7 +86,9 @@ Write a program to check a array sorted or not using recursion.
 
 Write a program to rotate a array right by d.
 
-So the goal is to rotate the elements in an array right d times. As an example; if d==2, then array = {0,1,2,3,4} would become array = {3,4,0,1,2}.
+So the goal is to rotate the elements in an array right d times. 
+
+As an example; if d==2, then array = {0,1,2,3,4} would become array = {3,4,0,1,2}.
 
 ***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/RotateArrayOnebyOne.cpp).
