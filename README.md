@@ -47,7 +47,7 @@ The first line of input contains an integer T denoting the number of test cases.
 Time complexity = O(n) and space complexity = O(1)
 
 
-## Problem 3
+## Problem 4
 
 Implement the function which uses the static and global variable in the recursive function.
 
@@ -57,7 +57,7 @@ Implement the function which uses the static and global variable in the recursiv
 ***Solution-2 using static variable***
 [Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/recursionStaticVariable.cpp).
 
-## Problem 4
+## Problem 5
 
 Write a program to print fibonacci series using recursion.
 
@@ -67,14 +67,14 @@ Write a program to print fibonacci series using recursion.
 ***Solution-2***
 [Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/fibonacciRecursion2.cpp).
 
-## Problem 5
+## Problem 6
 
 Write a program to solve tower of hanoi using recursion.
 
 ***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/towerOfHanoi.cpp).
 
-## Problem 6
+## Problem 7
 
 Write a program to check a array sorted or not using recursion.
 
@@ -82,7 +82,7 @@ Write a program to check a array sorted or not using recursion.
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/isSortedRecursion.cpp).
 
 
-## Problem 7
+## Problem 8
 
 Write a program to rotate a array right by d.
 
@@ -107,7 +107,7 @@ Time complexity = O(n) and space complexity = O(1)
 Time complexity = O(n) and space complexity = O(1)
 
 
-## Problem 8
+## Problem 9
 
 An array contains both positive and negative numbers in random order. Rearrange the array elements so that all negative numbers appear before all positive numbers.
 
@@ -120,7 +120,7 @@ Note: Order of elements is not important here.
 Time complexity = O(n) and space complexity = O(1) 
 
 
-## Problem 9
+## Problem 10
 Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.
 
 Here, we will use the integers 0, 1, and 2 to represent the color red, white, and blue respectively.
@@ -128,7 +128,7 @@ Here, we will use the integers 0, 1, and 2 to represent the color red, white, an
 Note:Could you solve this problem without using the library's sort function?
 
 ***Solution-1 Counting technique***
-[Solution-1.cpp]().
+[Solution-1.cpp]()
 Time complexity = O(n) and space complexity = O(1) 
 
 ***Solution-2 Dutch flag algorithm / 3-way partitioning***
@@ -137,7 +137,18 @@ Time complexity = O(n) and space complexity = O(1)
 [Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/DutchFlagAlgo.cpp).
 Time complexity = O(n) and space complexity = O(1) 
 
+## Problem 11
 
+Given an unsorted array Arr of size N of positive integers. One number 'A' from set {1, 2, …N} is missing and one number 'B' occurs twice in array. Find these two numbers.
 
+Input:
+N = 2
+Arr[] = {2, 2}
+Output: 2 1
+
+***Solution-1 Using count array***
+ 
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/findMissingRepeatPairUsingCountArray.cpp).
+Time complexity = O(n) and space complexity = O(n) 
 
 
