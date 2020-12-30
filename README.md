@@ -147,12 +147,12 @@ Arr[] = {2, 2}
 Output: 2 1
 
 ***Solution-1 Using count array***
- [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/repeatMissingNumUsingXor.cpp).
+ [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/findMissingRepeatPairUsingCountArray.cpp).
 Time complexity = O(n) and space complexity = O(n)
 
 
 ***Solution-2 Using XOR***
- [Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/findMissingRepeatPairUsingCountArray.cpp).
+ [Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/repeatMissingNumUsingXor.cpp).
 Time complexity = O(n) and space complexity = O(1) 
 
 
