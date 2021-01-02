@@ -164,7 +164,7 @@ Write an efficient program to print all the duplicates and their counts in the i
  [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/printDuplicates.cpp).
 Time complexity = O(n) and space complexity = O(1) 
 
-## Problem 12
+## Problem 13
 
 Minimize the maximum difference between the heights
 
@@ -175,5 +175,5 @@ Output :  Maximum difference is 5.
 
 
 ***Solution-1***
- [Solution-1.cpp]().
+ [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/MinimumHeightDiffrence.cpp).
 Time complexity = O(n) and space complexity = O(1) 
