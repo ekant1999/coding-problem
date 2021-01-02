@@ -164,3 +164,16 @@ Write an efficient program to print all the duplicates and their counts in the i
  [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/printDuplicates.cpp).
 Time complexity = O(n) and space complexity = O(1) 
 
+## Problem 12
+
+Minimize the maximum difference between the heights
+
+Given heights of n towers and a value k. We need to either increase or decrease height of every tower by k (only once) where k > 0. The task is to minimize the difference between the heights of the longest and the shortest tower after modifications, and output this difference.
+
+Input  : arr[] = {1, 15, 10}, k = 6
+Output :  Maximum difference is 5.
+
+
+***Solution-1***
+ [Solution-1.cpp]().
+Time complexity = O(n) and space complexity = O(1) 
