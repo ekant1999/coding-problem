@@ -190,6 +190,6 @@ Output : Union : {1, 2, 3, 4, 5, 6, 7}
 ***Solution-1 using sets***
  [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/UnionOfTwoArrayUsingSets.cpp).
  
- ***Solution-2 using ***
+ ***Solution-2 using***
  [Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/UnionOfTwoArray.cpp).
  Time complexity = O(n+m) and space complexity = O(n+m) 
