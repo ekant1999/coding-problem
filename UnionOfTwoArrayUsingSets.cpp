@@ -1,3 +1,4 @@
+//This program only prints the size of the union array.
 #include <iostream>
 #include <unordered_set>
 
