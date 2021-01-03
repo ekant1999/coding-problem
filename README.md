@@ -173,7 +173,23 @@ Given heights of n towers and a value k. We need to either increase or decrease 
 Input  : arr[] = {1, 15, 10}, k = 6
 Output :  Maximum difference is 5.
 
-
 ***Solution-1***
  [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/MinimumHeightDiffrence.cpp).
 Time complexity = O(n) and space complexity = O(1) 
+
+## Problem 14
+
+Given two sorted arrays, find their union and intersection.
+
+Input : arr1[] = {1, 3, 4, 5, 7}
+        arr2[] = {2, 3, 5, 6} 
+        
+Output : Union : {1, 2, 3, 4, 5, 6, 7} 
+         Intersection : {3, 5}
+
+***Solution-1 using sets***
+ [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/UnionOfTwoArrayUsingSets.cpp).
+ 
+ ***Solution-2 using ***
+ [Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/UnionOfTwoArray.cpp).
+ Time complexity = O(n+m) and space complexity = O(n+m) 
