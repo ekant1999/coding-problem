@@ -200,9 +200,7 @@ Output : Union : {1, 2, 3, 4, 5, 6, 7}
 
 For Input:
 1
-
 6
-
 -4 0 1 2 4 -3
 
 output: 
