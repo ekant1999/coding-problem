@@ -193,3 +193,26 @@ Output : Union : {1, 2, 3, 4, 5, 6, 7}
  ***Solution-2 using***
  [Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/UnionOfTwoArray.cpp).
  Time complexity = O(n+m) and space complexity = O(n+m) 
+ 
+ ## Problem 15
+ 
+ Given an array arr of N integers. Find the contiguous sub-array with maximum sum.
+
+For Input:
+1
+
+6
+
+-4 0 1 2 4 -3
+
+output: 
+6
+
+
+***Solution-1  naive approach***
+ [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/MaxSumOfSubArrayUsingNaiveMethod.cpp).
+ Time complexity = O(n^2) 
+ 
+ ***Solution-2 Kadane's algorithm***
+ [Solution-2.cpp]().
+ Time complexity = O(n) and space complexity = O(1)
