@@ -63,9 +63,15 @@ Write a program to print fibonacci series using recursion.
 
 ***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/fibonacciRecursion1.cpp).
+Time complexity = O(2^n) and space complexity = O(n)
 
 ***Solution-2***
 [Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/fibonacciRecursion2.cpp).
+Time complexity = O(2^n) and space complexity = O(n)
+
+***Solution-3 Using DP (Memorization)***
+[Solution-3.cpp]().
+Time complexity = O(n) and space complexity = O(n)
 
 ## Problem 6
 
