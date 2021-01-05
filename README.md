@@ -70,7 +70,7 @@ Time complexity = O(2^n) and space complexity = O(n)
 Time complexity = O(2^n) and space complexity = O(n)
 
 ***Solution-3 Using DP (Memorization)***
-[Solution-3.cpp]().
+[Solution-3.cpp](https://github.com/ekant1999/coding-problem/blob/main/fibonacciUsingDp.cpp).
 Time complexity = O(n) and space complexity = O(n)
 
 ## Problem 6
