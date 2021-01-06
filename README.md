@@ -69,7 +69,7 @@ Time complexity = O(2^n) and space complexity = O(n)
 [Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/fibonacciRecursion2.cpp).
 Time complexity = O(2^n) and space complexity = O(n)
 
-***Solution-3 Using DP (Memorization)***
+***Solution-3 Using DP (memoization)***
 [Solution-3.cpp](https://github.com/ekant1999/coding-problem/blob/main/fibonacciUsingDp.cpp).
 Time complexity = O(n) and space complexity = O(n)
 
@@ -217,3 +217,25 @@ output:
  ***Solution-2 Kadane's algorithm***
  [Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/MaxSumOfSubArrayUsingKadaneAlgo.cpp).
  Time complexity = O(n) and space complexity = O(1)
+
+ 
+ ## Problem 15
+ 
+ GirdTraveller-Count all possible paths from top left to bottom right of a mXn matrix.
+ 
+The problem is to count all the possible paths from top left to bottom right of a mXn matrix with the constraints that from each cell you can either move only to right or down
+
+Input :  m = 2, n = 2;
+
+Output : 2
+
+There are two paths
+
+(0, 0) -> (0, 1) -> (1, 1)
+
+(0, 0) -> (1, 0) -> (1, 1)
+
+
+***Solution-1 memoization***
+ [Solution-1.cpp]().
+ Time complexity = O() 
