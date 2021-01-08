@@ -219,8 +219,7 @@ output:
  Time complexity = O(n) and space complexity = O(1)
 
  
- ## Problem 15
- 
+ ## Problem 16
  GirdTraveller-Count all possible paths from top left to bottom right of a mXn matrix.
  
 The problem is to count all the possible paths from top left to bottom right of a mXn matrix with the constraints that from each cell you can either move only to right or down
@@ -244,4 +243,19 @@ There are two paths
  [Solution-2.cpp]().
  Time complexity = O(n) space complexity = O(n) 
  
+ ## Problem 17
  
+Given an array of integers where each element represents the max number of steps that can be made forward from that element. Find the minimum number of jumps to reach the end of the array (starting from the first element). If an element is 0, then you cannot move through that element.
+
+Input:
+
+N=11 
+
+arr=1 3 5 8 9 2 6 7 6 8 9 
+
+Output: 3 
+
+First jump from 1st element to 2nd element with value 3. Now, from here we jump to 5th element with value 9, and from here we will jump to last. 
+
+***Solution-1***
+ [Solution-1.cpp]().
