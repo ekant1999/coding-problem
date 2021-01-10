@@ -112,7 +112,6 @@ Time complexity = O(n) and space complexity = O(1)
 [Solution-4.cpp](https://github.com/ekant1999/coding-problem/blob/main/RotationUsingJugglingAlgo.cpp).
 Time complexity = O(n) and space complexity = O(1)
 
-
 ## Problem 9
 
 An array contains both positive and negative numbers in random order. Rearrange the array elements so that all negative numbers appear before all positive numbers.
