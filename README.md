@@ -46,7 +46,6 @@ The first line of input contains an integer T denoting the number of test cases.
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/CyclicallyRotateArrayByOne.cpp).
 Time complexity = O(n) and space complexity = O(1)
 
-
 ## Problem 4
 
 Implement the function which uses the static and global variable in the recursive function.
