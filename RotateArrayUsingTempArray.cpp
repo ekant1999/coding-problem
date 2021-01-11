@@ -1,7 +1,6 @@
 #include <iostream>
 
 using namespace std;
-
 void Rotate(int arr[], int size, int num)
 {
     int array[num];
@@ -28,7 +27,6 @@ int main() {
       }
       cout<<"By how much you want to rotate a array"<< endl;
         cin>> num;
-        
      Rotate(arr,size,num);
       for (int i = 0; i < size; i++)
          cout << arr[i] << " ";
