@@ -233,12 +233,12 @@ There are two paths
 (0, 0) -> (1, 0) -> (1, 1)
 
 ***Solution-1 recursion***
- [Solution-1.cpp]().
+ [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/gridTravellerUsingRecursion.cpp).
  Time complexity = O(2^n) space complexity = O(n) 
  
  
  ***Solution-2 memoization***
- [Solution-2.cpp]().
+ [Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/gridTravellerUsingMemo.cpp).
  Time complexity = O(n) space complexity = O(n) 
  
  ## Problem 17
