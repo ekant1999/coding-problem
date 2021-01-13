@@ -277,7 +277,7 @@ has three inversions (2, 1), (4, 1), (4, 3)
  
   ## Problem 19
  
-Write a program to implement selection sort.
+Write a program to implement insertion sort.
 
 ***Solution-1***
  [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/InsertionSort.cpp).
@@ -289,5 +289,5 @@ Write a program to implement shell sort.
 
 ***Solution-1***
  [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/ShellSort.cpp).
- Time complexity = O(n^2) space complexity = O(1) 
+ Time complexity = O(n^2) space complexity = O(1) . 
  Time complexity = O(n^3/2) space complexity = O(1) using Knuths sequence.
