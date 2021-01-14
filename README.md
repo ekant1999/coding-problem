@@ -297,5 +297,5 @@ Write a program to implement shell sort.
 Write a program to implement merge sort.
 
 ***Solution-1***
- [Solution-1.cpp]().
+ [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/mergeSort.cpp).
  Time complexity = O(nlogn) space complexity = O(1) . 
