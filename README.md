@@ -291,3 +291,11 @@ Write a program to implement shell sort.
  [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/ShellSort.cpp).
  Time complexity = O(n^2) space complexity = O(1) . 
  Time complexity = O(n^3/2) space complexity = O(1) using Knuths sequence.
+ 
+   ## Problem 21
+ 
+Write a program to implement merge sort.
+
+***Solution-1***
+ [Solution-1.cpp]().
+ Time complexity = O(nlogn) space complexity = O(1) . 
