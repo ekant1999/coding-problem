@@ -298,4 +298,12 @@ Write a program to implement merge sort.
 
 ***Solution-1***
  [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/mergeSort.cpp).
+ Time complexity = O(nlogn) space complexity = O(n) . 
+
+   ## Problem 21
+ 
+Write a program to implement quick sort.
+
+***Solution-1***
+ [Solution-1.cpp]().
  Time complexity = O(nlogn) space complexity = O(1) . 
