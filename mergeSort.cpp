@@ -17,24 +17,18 @@ void Merge(int a[], int low, int high, int mid)
 		}
 		else
 		{
-			temp[k] = a[j];
-			k++;
-			j++;
+			temp[k++] = a[j++];
 		}
 	}
  
 	while (i <= mid)
 	{
-		temp[k] = a[i];
-		k++;
-		i++;
+		temp[k++] = a[i++];
 	}
  
 	while (j <= high)
 	{
-		temp[k] = a[j];
-		k++;
-		j++;
+		temp[k++] = a[j++];
 	}
  
 	for (i = low; i <= high; i++)
@@ -57,12 +51,9 @@ void MergeSort(int a[], int low, int high)
  
 int main()
 {
-	 int arr[5] = {0, 199, 5, 1, 17}, array2[3]={ 6, 8, 2};
+	int arr[5] = {0, 199, 5, 1, 17}, array2[3]={ 6, 8, 2};
     int size = sizeof(arr)/sizeof(arr[0]);
 MergeSort(arr, 0, size - 1);
-//vector <int> res = merge(array1,array2,5,3);
-	// Printing the sorted data.
-	cout<<"\nSorted Data ";
 	for (int i = 0; i < size; i++)
         cout<<arr[i]<<" ";
  
