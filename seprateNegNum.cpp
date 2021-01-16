@@ -12,9 +12,7 @@ void seprateNegNum (int arr[], int size)
 	{
 	  int temp = arr[pointer];
 	  arr[pointer] = arr[negPointer];
-	  arr[negPointer] = temp;
-	  negPointer++;
-	}
+	  arr[negPointer++] = temp;}
     }
 }
 
