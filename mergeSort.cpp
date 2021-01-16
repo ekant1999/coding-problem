@@ -2,50 +2,48 @@
 
 using namespace std;
 
-void Merge(int a[], int low, int high, int mid)
+void merge(int arr[], int low, int mid, int high)
 {
-    int i, j, k, temp[high - low + 1];
-    i = low;
-    k = 0;
+    int tempArray[high - low + 1], i, j, m = 0;
     j = mid + 1;
-
+    i=low;
     while (i <= mid && j <= high)
     {
-        if (a[i] < a[j])
-            temp[k++] = a[i++];
+        if (arr[i] > arr[j])
+            tempArray[m++] = arr[j++];
         else
-            temp[k++] = a[j++];
+            tempArray[m++] = arr[i++];
     }
+    for (; i <= mid; i++)
+        tempArray[m++] = arr[i];
+    for (; j <= high; j++)
+        tempArray[m++] = arr[j];
 
-    while (i <= mid)
-        temp[k++] = a[i++];
-
-    while (j <= high)
-        temp[k++] = a[j++];
-
-    for (i = low; i <= high; i++)
-        a[i] = temp[i - low];
+    for (int n = low; n <= high; n++)
+    {
+        arr[n] = tempArray[n - low];
+    }
 }
 
-void MergeSort(int a[], int low, int high)
+void mergeSort(int arr[], int low, int high)
 {
     int mid;
-    if (low < high)
+    if (high > low)
     {
-        mid = (low + high) / 2;
-        MergeSort(a, low, mid);
-        MergeSort(a, mid + 1, high);
-        Merge(a, low, high, mid);
+        mid = (high + low) / 2;
+        mergeSort(arr, low, mid);
+        mergeSort(arr, mid + 1, high);
+        merge(arr, low, mid, high);
     }
 }
 
 int main()
 {
-    int arr[5] = {0, 199, 5, 1, 17}, array2[3] = {6, 8, 2};
-    int size = sizeof(arr) / sizeof(arr[0]);
-    MergeSort(arr, 0, size - 1);
+    int  array[5] = {0, 199, 5, 1, 17};
+    int size = sizeof(array) / sizeof(array[0]);
+    mergeSort(array, 0, 4);
+    //merge(array,0,9);
     for (int i = 0; i < size; i++)
-        cout << arr[i] << " ";
-
+        cout << array[i] << " ";
     return 0;
 }
