@@ -24,14 +24,10 @@ int maxSubarraySum(int arr[], int n) {
       one += arr[i];
       max.push_back(one);
     }
-        
     }
   }
   return ( * max_element(max.begin(), max.end()));
-
 }
-
-
 int main()
 {
     int t,n;
