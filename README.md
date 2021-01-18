@@ -314,5 +314,5 @@ Write a program to implement quick sort.
 Write a program to implement heap sort.
 
 ***Solution-1***
- [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/quickSort.cpp).
+ [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/heapSort.cpp).
  Time complexity = θ(nlogn) space complexity = O(1) . 
