@@ -14,9 +14,7 @@ struct Pair Min_Max_Finder(int A[], int start, int end)
 {
     int min = INT32_MAX, max = INT32_MIN;
     struct Pair minmaxpair;
-    
 /* base case:1 the function will return when both index are referring to the same position. eg arr[0]*/
-    
     if (start == end)
     {
         minmaxpair.max = A[start];
