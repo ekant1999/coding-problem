@@ -316,3 +316,12 @@ Write a program to implement heap sort.
 ***Solution-1***
  [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/heapSort.cpp).
  Time complexity = θ(nlogn) space complexity = O(1) . 
+
+
+   ## Problem 24
+ 
+Given two non empty array of integers, write a function that determines whether the second array is a subsequence of the first one.
+
+***Solution-1***
+ [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/validateSeq.cpp).
+ Time complexity = θ(Nss) space complexity = O(1) . 
