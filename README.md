@@ -324,4 +324,4 @@ Given two non empty array of integers, write a function that determines whether 
 
 ***Solution-1***
  [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/validateSeq.cpp).
- Time complexity = θ(Nss) space complexity = O(1) . 
+ Time complexity = θ(N) space complexity = O(1) . 
