@@ -325,3 +325,15 @@ Given two non empty array of integers, write a function that determines whether 
 ***Solution-1***
  [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/validateSeq.cpp).
  Time complexity = θ(N) space complexity = O(1) . 
+ 
+    ## Problem 25
+ 
+ Write a function that takes BST and target value as input and returns the closest value to the target value present in the BST.
+
+***Solution-1***
+ [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/findClosestValueInBST.cpp).
+ Time complexity = θ(N) space complexity = O(N). 
+ 
+ ***Solution-2***
+ [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/findClosestValueInBSTUsingRecursion.cpp).
+ Time complexity = θ(N) space complexity = O(1). 
