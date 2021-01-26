@@ -337,3 +337,13 @@ Given two non empty array of integers, write a function that determines whether 
  ***Solution-2***
  [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/findClosestValueInBSTUsingRecursion.cpp).
  Time complexity = θ(N) space complexity = O(1). 
+ 
+ 
+ ## Problem 26
+ 
+ Write a function that takes tree as input and returns the list containing the branch sum of all the possible path of the tree.
+
+***Solution-1***
+ [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/findBranchSum.cpp).
+ Time complexity = θ(N) space complexity = O(N). 
+ 
