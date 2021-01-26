@@ -326,7 +326,7 @@ Given two non empty array of integers, write a function that determines whether 
  [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/validateSeq.cpp).
  Time complexity = θ(N) space complexity = O(1) . 
  
-    ## Problem 25
+   ## Problem 25
  
  Write a function that takes BST and target value as input and returns the closest value to the target value present in the BST.
 
