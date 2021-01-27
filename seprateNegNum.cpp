@@ -2,7 +2,7 @@
 #include <iostream>
 
 using namespace std;
-
+//In this function we keep track of the first positive number and sawp it with ouccured negative number and then we again increment both the pointer and aur resultant array will have all negative number in the left and positive on the right.
 void seprateNegNum (int arr[], int size)
 {
   int negPointer = 0;
