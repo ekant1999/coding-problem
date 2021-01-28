@@ -349,8 +349,9 @@ Given two non empty array of integers, write a function that determines whether 
   
  ## Problem 27
  
- Write a function that takes tree as input and returns the sum of it's node depth.\
- example:-
+ Write a function that takes tree as input and returns the sum of it's node depth.
+ 
+ 
        1    
      /   \
     2     3  
