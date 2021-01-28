@@ -351,14 +351,15 @@ Given two non empty array of integers, write a function that determines whether 
  
  Write a function that takes tree as input and returns the sum of it's node depth.
  
- 
-       1    
-     /   \
-    2     3  
-   / \ 
-  4   5
+                1
+            /     \
+           2       3
+          / \     / \
+         4  NULL NULL NULL
+        / \
+     NULL NULL
   
- output=8
+ output=6
  
 ***Solution-1***
  [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/findBranchSum.cpp).
