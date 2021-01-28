@@ -346,4 +346,19 @@ Given two non empty array of integers, write a function that determines whether 
 ***Solution-1***
  [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/findBranchSum.cpp).
  Time complexity = θ(N) space complexity = O(N). 
+  
+ ## Problem 27
  
+ Write a function that takes tree as input and returns the sum of it's node depth.\
+ example:-
+       1    
+     /   \
+    2     3  
+   / \ 
+  4   5
+  
+ output=8
+ 
+***Solution-1***
+ [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/findBranchSum.cpp).
+ Time complexity = θ(N) space complexity = O(N). 
