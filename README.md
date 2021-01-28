@@ -362,5 +362,10 @@ Given two non empty array of integers, write a function that determines whether 
  output=6
  
 ***Solution-1***
- [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/findBranchSum.cpp).
+ [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/nodeDepthSumUsingRecursion.cpp).
+ Time complexity = θ(N) space complexity = O(h), (h=height of tree) 
+ 
+ 
+***Solution-1***
+ [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/nodeDepthSumIterative.cpp).
  Time complexity = θ(N) space complexity = O(N). 
