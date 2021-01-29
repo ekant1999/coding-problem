@@ -378,5 +378,5 @@ Given two non empty array of integers, write a function that determines whether 
 
 ***Solution-1***
  [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/BinarySearch.cpp).
- Time complexity = θ(N) space complexity = O(logN) recursive stack. 
+ Time complexity = θ(logN) space complexity = O(logN) recursive stack. 
   
