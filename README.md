@@ -366,6 +366,17 @@ Given two non empty array of integers, write a function that determines whether 
  Time complexity = θ(N) space complexity = O(h), (h=height of tree) 
  
  
-***Solution-1***
- [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/nodeDepthSumIterative.cpp).
+***Solution-2***
+ [Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/nodeDepthSumIterative.cpp).
  Time complexity = θ(N) space complexity = O(N). 
+ 
+ 
+ 
+ ## Problem 28
+ 
+ Write a function that takes sorted array and target element as input and return the index of that element using binary search.
+
+***Solution-1***
+ [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/BinarySearch.cpp).
+ Time complexity = θ(N) space complexity = O(logN) recursive stack. 
+  
