@@ -370,8 +370,6 @@ Given two non empty array of integers, write a function that determines whether 
  [Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/nodeDepthSumIterative.cpp).
  Time complexity = θ(N) space complexity = O(N). 
  
- 
- 
  ## Problem 28
  
  Write a function that takes sorted array and target element as input and return the index of that element using binary search.
@@ -380,3 +378,10 @@ Given two non empty array of integers, write a function that determines whether 
  [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/BinarySearch.cpp).
  Time complexity = θ(logN) space complexity = O(logN) recursive stack. 
   
+  
+ ## Problem 29
+ 
+Implement Stack using the array.
+
+***Solution-1***
+ [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/stackUsingArray.cpp).
