@@ -396,3 +396,12 @@ Write a function that takes array as input and return the sorted array of three 
  [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/threeLargestNumber.cpp)
  Time complexity = θ(N) space complexity = O(1). 
  
+ 
+ ## Problem 31
+ 
+Write a function that takes string as a input and return whether it is palindrome string or not 
+
+***Solution-1***
+ [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/palindromeString.cpp)
+ Time complexity = O(N) space complexity = O(1). 
+ 
