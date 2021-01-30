@@ -1,8 +1,10 @@
 #include <iostream>
 
 using namespace std;
+//In this method we will create a temp array which will store the d bit that we want to rotate and then we copy this temp array to original array.
 void Rotate(int arr[], int size, int num)
 {
+    
     int array[num];
     for (int i=0; i<num; i++)
         array[i]=arr[i];

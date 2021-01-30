@@ -346,4 +346,42 @@ Given two non empty array of integers, write a function that determines whether 
 ***Solution-1***
  [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/findBranchSum.cpp).
  Time complexity = θ(N) space complexity = O(N). 
+  
+ ## Problem 27
  
+ Write a function that takes tree as input and returns the sum of it's node depth.
+ 
+                1
+            /     \
+           2       3
+          / \     / \
+         4  NULL NULL NULL
+        / \
+     NULL NULL
+  
+ output=6
+ 
+***Solution-1***
+ [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/nodeDepthSumUsingRecursion.cpp).
+ Time complexity = θ(N) space complexity = O(h), (h=height of tree) 
+ 
+ 
+***Solution-2***
+ [Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/nodeDepthSumIterative.cpp).
+ Time complexity = θ(N) space complexity = O(N). 
+ 
+ ## Problem 28
+ 
+ Write a function that takes sorted array and target element as input and return the index of that element using binary search.
+
+***Solution-1***
+ [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/BinarySearch.cpp).
+ Time complexity = θ(logN) space complexity = O(logN) recursive stack. 
+  
+  
+ ## Problem 29
+ 
+Implement Stack using the array.
+
+***Solution-1***
+ [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/stackUsingArray.cpp).

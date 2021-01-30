@@ -1,3 +1,38 @@
+/*
+using namespace std;
+class BinaryTree {
+public:
+  int value;
+  BinaryTree *left;
+  BinaryTree *right;
+
+  BinaryTree(int value) {
+    this->value = value;
+    left = NULL;
+    right = NULL;
+  }
+};
+
+vector<int> branchSums(BinaryTree *root) {
+	vector<int> branchSumList;
+	computeAllBranchSum(root , 0 , branchSumList);
+  return branchSumList;
+}
+void computeAllBranchSum(BinaryTree *root, int currentSum, vector<int> branchSumList)
+{
+	if(root==NULL)
+		return;
+	
+	currentSum+= root->value;
+	if(root->left==NULL and root->right==NULL)
+	{
+		branchSumList.push_back(currentSum);
+		return;	
+	}
+	computeAllBranchSum(root->left,currentSum,branchSumList);
+	computeAllBranchSum(root->right,currentSum,branchSumList);
+}
+*/
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
