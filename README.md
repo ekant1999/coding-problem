@@ -405,3 +405,11 @@ Write a function that takes string as a input and return whether it is palindrom
  [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/palindromeString.cpp)
  Time complexity = O(N) space complexity = O(1). 
  
+  ## Problem 32
+ Write a function that takes non empty array of positive number(queries) as input and return the minimum wait time take to execute the query. Only one query can be executed at a time, but the queries can be executed in any order. find the minimum wait time take to execute the query
+
+***Solution-1***
+ [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/minWaitingTime.cpp)
+ Time complexity = O(logN) space complexity = O(1). 
+
+
