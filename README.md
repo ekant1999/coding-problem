@@ -412,4 +412,11 @@ Write a function that takes string as a input and return whether it is palindrom
  [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/minWaitingTime.cpp)
  Time complexity = O(logN) space complexity = O(1). 
 
+ ## Problem 33
+Given an input string, write a function that returns the Run Length Encoded string for the input string.
+For example, if the input string is “wwwwaaadexxxxxx”, then the function should return “w4a3d1e1x6”
+
+
+ [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/RunLengthEncode.cpp)
+ Time complexity = O(N) space complexity = O(N). 
 
