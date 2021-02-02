@@ -419,4 +419,11 @@ For example, if the input string is “wwwwaaadexxxxxx”, then the function sho
 ***Solution-1***
  [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/runLengthEncode.cpp)
  Time complexity = O(N) space complexity = O(N). 
+ 
+ 
+ ## Problem 34
+Implement the stack using linked list.
+***Solution-1***
+ [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/stackUsingLinkedList.cpp)
+ Time complexity = O(N) space complexity = O(N). 
 
