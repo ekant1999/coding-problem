@@ -427,3 +427,10 @@ Implement the stack using linked list.
  [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/stackUsingLinkedList.cpp)
  Time complexity = O(N) space complexity = O(N). 
 
+
+ ## Problem 35
+write a program to convert infix expression to postfix expression.
+***Solution-1***
+ [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/infixToPostfix.java)
+ Time complexity = O(N) space complexity = O(N). 
+
