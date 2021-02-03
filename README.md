@@ -434,3 +434,9 @@ write a program to convert infix expression to postfix expression.
  [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/infixToPostfix.java)
  Time complexity = O(N) space complexity = O(N). 
 
+
+ ## Problem 36
+write a program to convert postfix expression to infix expression.
+***Solution-1***
+ [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/postfixToInfinx.java)
+ Time complexity = O(N) space complexity = O(N). 
