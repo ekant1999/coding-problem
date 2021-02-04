@@ -449,3 +449,12 @@ Given an array, print the Next Greater Element (NGE) for every element. The Next
 ***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/nextGreaterElement.cpp)
  Time complexity = O(N) space complexity = O(N). 
+ 
+ 
+  ## Problem 38
+ 
+Given an array, for each element find the value of the nearest element to the right which is having a frequency greater than as that of the current element. If there does not exist an answer for a position, then make the value ‘-1’.
+
+***Solution-1***
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/.cpp)
+ Time complexity = O(N) space complexity = O(N). 
