@@ -460,7 +460,7 @@ Given an array, for each element find the value of the nearest element to the ri
  Time complexity = O(N) space complexity = O(N). 
  
  
-  ## Problem 38
+  ## Problem 39
   
 Given an expression string exp, write a program to examine whether the pairs and the orders of “{“, “}”, “(“, “)”, “[“, “]” are correct in exp.
 
