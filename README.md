@@ -458,3 +458,13 @@ Given an array, for each element find the value of the nearest element to the ri
 ***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/.cpp)
  Time complexity = O(N) space complexity = O(N). 
+ 
+ 
+  ## Problem 38
+  
+Given an expression string exp, write a program to examine whether the pairs and the orders of “{“, “}”, “(“, “)”, “[“, “]” are correct in exp.
+
+
+***Solution-1***
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/.cpp)
+ Time complexity = O(N) space complexity = O(N). 
