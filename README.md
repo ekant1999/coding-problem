@@ -468,3 +468,14 @@ Given an expression string exp, write a program to examine whether the pairs and
 ***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/.cpp)
  Time complexity = O(N) space complexity = O(N). 
+ 
+ ## Problem 40
+ 
+Write a function which takes a list sorted in non-decreasing order and deletes any duplicate nodes from the list. The list should only be traversed once.
+
+
+For example if the linked list is 11->11->11->21->43->43->60 then removeDuplicates() should convert the list to 11->21->43->60. 
+
+
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/deleteDuplicatesFromLinkedList.cpp)
+ Time complexity = O(N) space complexity = O(N). 
