@@ -479,3 +479,12 @@ For example if the linked list is 11->11->11->21->43->43->60 then removeDuplicat
 
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/deleteDuplicatesFromLinkedList.cpp)
  Time complexity = O(N) space complexity = O(N). 
+
+
+
+ 
+ ## Problem 41
+ 
+Inorder tree traversal using Stack.
+
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/.cpp)
