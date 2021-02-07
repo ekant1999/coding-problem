@@ -431,7 +431,7 @@ Implement the stack using linked list.
  ## Problem 35
 write a program to convert infix expression to postfix expression.
 ***Solution-1***
- [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/infixToPostfix.java)
+ [Solution-1.java](https://github.com/ekant1999/coding-problem/blob/main/infixToPostfix.java)
  Time complexity = O(N) space complexity = O(N). 
 
 
@@ -439,7 +439,7 @@ write a program to convert infix expression to postfix expression.
 write a program to convert postfix expression to infix expression.
 
 ***Solution-1***
- [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/postfixToInfinx.java)
+ [Solution-1.java](https://github.com/ekant1999/coding-problem/blob/main/postfixToInfinx.java)
  Time complexity = O(N) space complexity = O(N). 
  
   ## Problem 37
@@ -479,7 +479,6 @@ For example if the linked list is 11->11->11->21->43->43->60 then removeDuplicat
 
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/deleteDuplicatesFromLinkedList.cpp)
  Time complexity = O(N) space complexity = O(N). 
-
 
 
  
