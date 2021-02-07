@@ -488,3 +488,12 @@ Inorder tree traversal using Stack.
 
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/IterativeInorderTraversal.cpp)
  Time complexity = O(N) space complexity = O(N). 
+ 
+ 
+ ## Problem 42
+ 
+ Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, and deserialize(s), which deserializes the string back into the tree.
+ 
+ [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/SerializeBinaryTree.cpp)
+ Time complexity = O(N) space complexity = O(N). 
+ 
