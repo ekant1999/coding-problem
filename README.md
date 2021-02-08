@@ -507,3 +507,20 @@ Inorder tree traversal using Stack.
  
  [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/threeNumberSum.cpp)
  Time complexity = O(N^2) space complexity = O(M). (M= number of triplets);
+
+ ## Problem 44
+
+Given two arrays of integers, compute the pair of values (one value in each array) with the smallest (non-negative) difference. Return the difference.
+
+Input : A[] = {l, 3, 15, 11, 2}
+        B[] = {23, 127, 235, 19, 8} 
+        
+        
+Output : 3  
+
+
+That is, the pair (11, 8) 
+
+
+ [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/smallestDifference.cpp)
+ Time complexity = O(N) space complexity = O(1).
