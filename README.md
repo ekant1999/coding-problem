@@ -497,3 +497,13 @@ Inorder tree traversal using Stack.
  [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/SerializeBinaryTree.cpp)
  Time complexity = O(N) space complexity = O(N). 
  
+ ## Problem 43
+ 
+ Given an array of distinct elements. The task is to find triplets in the array whose sum is zero.
+ 
+ 
+ Input : arr[] = {0, -1, 2, -3, 1}
+ Output : (0 -1 1), (2 -3 1)
+ 
+ [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/threeNumberSum.cpp)
+ Time complexity = O(N^2) space complexity = O(M). (M= number of triplets);
