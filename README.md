@@ -524,3 +524,14 @@ That is, the pair (11, 8)
 
  [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/smallestDifference.cpp)
  Time complexity = O(m log m + n log n) space complexity = O(1).
+
+
+
+ ## Problem 45
+
+Given an array input Arr containing n integers. We need to check whether the input array is Monotonic in nature or not.
+
+An array is said to be monotonic in nature if it is either continuously increasing or continuously decreasing.
+
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/isMonotonic.cpp)
+ Time complexity = O(N) space complexity = O(1).
