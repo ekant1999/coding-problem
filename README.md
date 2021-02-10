@@ -535,3 +535,14 @@ An array is said to be monotonic in nature if it is either continuously increasi
 
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/isMonotonic.cpp)
  Time complexity = O(N) space complexity = O(1).
+
+
+ ## Problem 46
+
+Given an array of positive numbers, find the maximum sum of a subsequence with the constraint that no 2 numbers in the sequence should be adjacent in the array. So 3 2 7 10 should return 13 (sum of 3 and 10) or 3 2 5 10 7 should return 15 (sum of 3, 5 and 7).Answer the question in most efficient way.
+
+Input : arr[] = {5, 5, 10, 100, 10, 5}
+Output : 110
+
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/maxSubsetSumNoAdj.cpp)
+ Time complexity = O(N) space complexity = O(1).
