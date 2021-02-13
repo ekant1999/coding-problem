@@ -562,3 +562,19 @@ Explanation: There is a cycle, from index 0 -> 2 -> 3 -> 0. The cycle's length i
 
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/circularArrayLoop.cpp)
  Time complexity = O(N) space complexity = O(1).
+
+
+## Problem 47
+
+Write a program that, given an array A[] of n numbers and another number x, determines whether or not there exist elements in S whose sum is exactly x.
+we have unlimited supply to the array element
+
+Input: arr[] = {5,3,4,7}    sum = 7
+
+
+Output: true
+
+
+***Solution-1 using memoization***
+[Solution-1.cpp] (https://github.com/ekant1999/coding-problem/blob/main/canSumUsingMemoization.cpp)
+ Time complexity = O(N*M) space complexity = O(M). M-target value N- array size
