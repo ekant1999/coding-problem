@@ -576,7 +576,7 @@ Output: true
 
 
 ***Solution-1 using memoization***
-[Solution-1.cpp] (https://github.com/ekant1999/coding-problem/blob/main/canSumUsingMemoization.cpp)
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/canSumUsingMemoization.cpp)
  Time complexity = O(N*M) space complexity = O(M). M-target value N- array size
  
  ## Problem 48
@@ -592,5 +592,5 @@ We can use one coin of 25 cents and one of 5 cents
 
 
 ***Solution-1***
-[Solution-1.cpp] (https://github.com/ekant1999/coding-problem/blob/main/minCoinChange.cpp)
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/minCoinChange.cpp)
  Time complexity = O(N*M) space complexity = O(M). M-target value N- array size
