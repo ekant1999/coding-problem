@@ -594,3 +594,14 @@ We can use one coin of 25 cents and one of 5 cents
 ***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/minCoinChange.cpp)
  Time complexity = O(N*M) space complexity = O(M). M-target value N- array size
+
+
+ ## Problem 48
+ 
+Mirror of a Tree: Mirror of a Binary Tree T is another Binary Tree M(T) with left and right children of all non-leaf nodes interchanged.
+
+
+***Solution-1***
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/invertBinaryTree.cpp)
+ Time complexity = O(N) space complexity = O(logN)
+
