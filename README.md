@@ -564,7 +564,7 @@ Explanation: There is a cycle, from index 0 -> 2 -> 3 -> 0. The cycle's length i
  Time complexity = O(N) space complexity = O(1).
 
 
-## Problem 47
+## Problem 48
 
 Write a program that, given an array A[] of n numbers and another number x, determines whether or not there exist elements in S whose sum is exactly x.
 we have unlimited supply to the array element
@@ -579,7 +579,7 @@ Output: true
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/canSumUsingMemoization.cpp)
  Time complexity = O(N*M) space complexity = O(M). M-target value N- array size
  
- ## Problem 48
+ ## Problem 49
 
 Given a value V, if we want to make change for V cents, and we have infinite supply of each of C = { C1, C2, .. , Cm} valued coins, what is the minimum number of coins to make the change? 
 
@@ -596,7 +596,7 @@ We can use one coin of 25 cents and one of 5 cents
  Time complexity = O(N*M) space complexity = O(M). M-target value N- array size
 
 
- ## Problem 48
+ ## Problem 50
  
 Mirror of a Tree: Mirror of a Binary Tree T is another Binary Tree M(T) with left and right children of all non-leaf nodes interchanged.
 
