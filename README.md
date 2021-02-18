@@ -604,4 +604,16 @@ Mirror of a Tree: Mirror of a Binary Tree T is another Binary Tree M(T) with lef
 ***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/invertBinaryTree.cpp)
  Time complexity = O(N) space complexity = O(logN)
+ 
+  ## Problem 51
 
+This problem was asked by Google.
+
+Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, and deserialize(s), which deserializes the string back into the tree.
+
+
+
+
+***Solution-1***
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/Problem_051.cpp)
+ Time complexity = O(logN) space complexity = OlogN).
