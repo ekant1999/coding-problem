@@ -582,7 +582,7 @@ Output: true
  Time complexity = O(N*M) space complexity = O(M). M-target value N- array size
  
  
- ## Problem 49
+ ## Problem 50
 
 ***How Sum***
 Write a program that, given an array A[] of n numbers and another number x, and returns elements in S whose sum is exactly x. if the sum is not possible then return -1. We have unlimited supply to the array element
@@ -593,9 +593,11 @@ Output: {3,4}
 
 ***Solution-1 using memoization***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/howSumUsingMemoization.cpp)
- Time complexity = O(N*M) space complexity = O(M). M-target value N- array size
+ Time complexity = O(N*M^2) space complexity = O(M^2). M-target value N- array size
  
- ## Problem 49
+ ## Problem 50
+
+***Best Sum***
 
 Given a value V, if we want to make change for V cents, and we have infinite supply of each of C = { C1, C2, .. , Cm} valued coins, what is the minimum number of coins to make the change? 
 
@@ -606,13 +608,12 @@ Output: Minimum 2 coins required
 We can use one coin of 25 cents and one of 5 cents
 
 
-
 ***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/minCoinChange.cpp)
  Time complexity = O(N*M) space complexity = O(M). M-target value N- array size
 
 
- ## Problem 50
+ ## Problem 51
  
 Mirror of a Tree: Mirror of a Binary Tree T is another Binary Tree M(T) with left and right children of all non-leaf nodes interchanged.
 
@@ -621,14 +622,11 @@ Mirror of a Tree: Mirror of a Binary Tree T is another Binary Tree M(T) with lef
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/invertBinaryTree.cpp)
  Time complexity = O(N) space complexity = O(logN)
  
-  ## Problem 51
+  ## Problem 52
 
 This problem was asked by Google.
 
 Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, and deserialize(s), which deserializes the string back into the tree.
-
-
-
 
 ***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/Problem_051.cpp)
