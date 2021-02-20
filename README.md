@@ -585,6 +585,7 @@ Output: true
  ## Problem 50
 
 ***How Sum***
+
 Write a program that, given an array A[] of n numbers and another number x, and returns elements in S whose sum is exactly x. if the sum is not possible then return -1. We have unlimited supply to the array element
 
 Input: arr[] = {5,3,4,9}    sum = 7
@@ -609,6 +610,11 @@ We can use one coin of 25 cents and one of 5 cents
 
 
 ***Solution-1***
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/minCoinChangeUsingRecursion.cpp)
+ Time complexity = O(N*M*2) space complexity = O(M*2). M-target value N- array size
+ 
+ 
+***Solution-2***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/minCoinChange.cpp)
  Time complexity = O(N*M) space complexity = O(M). M-target value N- array size
 
