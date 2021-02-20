@@ -3,6 +3,7 @@
 using namespace std;
 std::vector<int> globalRes;
     
+//time - O(n^m)*m   space- O(m)
 std::vector<int> howSum(int target, std::vector<int> array)
 {
     if (target == 0)
@@ -22,7 +23,7 @@ std::vector<int> howSum(int target, std::vector<int> array)
     return {-1};
 }
 
-
+//time - O(n*m^2)   space- O(m^2)
 std::vector<int> howSumUsingMemo(int target, std::vector<int> array)
 {
     if (target == 0)
