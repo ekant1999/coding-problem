@@ -652,5 +652,18 @@ Given the root to a binary tree, implement serialize(root), which serializes the
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/sumRegionUsingCaching.cpp)
  Time complexity = O(M) space complexity = O(M*N).
  
+  ## Problem 54
  
- 
+Given an integer n, return the number of strings of length n that consist only of vowels (a, e, i, o, u) and are lexicographically sorted.
+
+A string s is lexicographically sorted if for all valid i, s[i] is the same as or comes before s[i+1] in the alphabet.
+
+Input: n = 1    Output: 5
+
+
+Explanation: The 5 sorted strings that consist of vowels only are ["a","e","i","o","u"].
+
+
+***Solution-1***
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/countVowelStrings.cpp)
+ Time complexity = O(N) space complexity = O(1).
