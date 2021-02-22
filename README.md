@@ -637,3 +637,20 @@ Given the root to a binary tree, implement serialize(root), which serializes the
 ***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/Problem_051.cpp)
  Time complexity = O(logN) space complexity = OlogN).
+ 
+ ## Problem 53
+ 
+ Given a 2D matrix matrix, find the sum of the elements inside the rectangle defined by its upper left corner (row1, col1) and lower right corner (row2, col2).
+
+
+***Solution-1 brute force method***
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/sumRegionBruteForce.cpp)
+ Time complexity = O(M*N) space complexity = O(1).
+ 
+ 
+***Solution-2 Caching method(DP)***
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/sumRegionUsingCaching.cpp)
+ Time complexity = O(M) space complexity = O(M*N).
+ 
+ 
+ 
