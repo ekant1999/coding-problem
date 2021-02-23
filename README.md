@@ -644,12 +644,12 @@ Given the root to a binary tree, implement serialize(root), which serializes the
 
 
 ***Solution-1 brute force method***
-[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/sumRegionBruteForce.cpp)
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/sumRegionBruteForce.cs)
  Time complexity = O(M*N) space complexity = O(1).
  
  
 ***Solution-2 Caching method(DP)***
-[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/sumRegionUsingCaching.cpp)
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/sumRegionUsingCaching.cs)
  Time complexity = O(M) space complexity = O(M*N).
  
   ## Problem 54
