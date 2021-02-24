@@ -61,22 +61,21 @@ public:
 
 class Solution {
 public:
-    
-   int minDepth(TreeNode* root) {
-    if (root == NULL) return 0;
-    queue<TreeNode*> Q;
-    Q.push(root);
-    int i = 0;
-    while (!Q.empty()) {
-        i++;
-        int k = Q.size();
-        for (int j=0; j<k; j++) {
-            TreeNode* rt = Q.front();
-            if (rt->left) Q.push(rt->left);
-            if (rt->right) Q.push(rt->right);
-            Q.pop();
-            if (rt->left==NULL && rt->right==NULL) return i;
+    int minDepth(TreeNode* root) {
+        int minimumDepth = 1;
+        if(!root) return 0;
+        queue<TreeNode*> q;
+        q.push(root);
+        while(!q.empty()){
+            for(int i=0,n=q.size();i<n;i++){
+                TreeNode* p = q.front();
+                q.pop();
+                if(p->left==NULL && p->right==NULL) return minimumDepth;
+                if(p->left) q.push(p->left);
+                if(p->right) q.push(p->right);
+            }
+            minimumDepth++;
         }
+        return minimumDepth;
     }
-    return -1;
-}};
+};
