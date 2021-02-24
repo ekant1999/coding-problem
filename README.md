@@ -667,3 +667,20 @@ Explanation: The 5 sorted strings that consist of vowels only are ["a","e","i","
 ***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/countVowelStrings.cpp)
  Time complexity = O(N) space complexity = O(1).
+ 
+ ## Problem 54
+
+Given an array nums of size n, return the majority element.
+
+The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.
+
+Input : {3, 3, 4, 2, 4, 4, 2, 4, 4}          Output : 4
+
+
+
+Explanation: The frequency of 4 is 5 which is greater than the half of the size of the array size.
+
+
+***Solution-1***
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/majorityElement.cpp)
+ Time complexity = O(N) space complexity = O(1).
