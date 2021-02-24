@@ -668,7 +668,7 @@ Explanation: The 5 sorted strings that consist of vowels only are ["a","e","i","
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/countVowelStrings.cpp)
  Time complexity = O(N) space complexity = O(1).
  
- ## Problem 54
+ ## Problem 55
 
 Given an array nums of size n, return the majority element.
 
@@ -684,3 +684,16 @@ Explanation: The frequency of 4 is 5 which is greater than the half of the size 
 ***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/majorityElement.cpp)
  Time complexity = O(N) space complexity = O(1).
+ 
+ ## Problem 56
+ 
+ Given a binary tree, find its minimum depth.
+
+The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.
+
+Note: A leaf is a node with no children.
+
+
+***Solution-1***
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/minDepthBinaryTree.cpp)
+ Time complexity = O(N) space complexity = O(N).
