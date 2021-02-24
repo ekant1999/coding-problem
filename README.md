@@ -697,3 +697,23 @@ Note: A leaf is a node with no children.
 ***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/minDepthBinaryTree.cpp)
  Time complexity = O(N) space complexity = O(N).
+
+## Problem 57
+
+
+Given the root of a binary tree, determine if it is a valid binary search tree (BST).
+
+A valid BST is defined as follows:
+
+1.The left subtree of a node contains only nodes with keys less than the node's key.
+
+
+2.The right subtree of a node contains only nodes with keys greater than the node's key.
+
+
+3.Both the left and right subtrees must also be binary search trees.
+
+
+***Solution-1***
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/isValidBST.cpp)
+ Time complexity =  space complexity = .
