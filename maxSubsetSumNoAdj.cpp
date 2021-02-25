@@ -1,45 +1,43 @@
-#include <vector>
+// { Driver Code Starts
+#include <bits/stdc++.h>
 using namespace std;
-int maxSubsetSumNoAdjacent(vector<int> array) {
-	int maxSum=0;
-	if (array.size()==0)
-		return 0;
-	else if(array.size()==1)
-		return array[0];
-	else if(array.size()==2)
-		return max(array[0],array[1]);
-	else if(array.size()>2 and array.size()<6)
+
+typedef long long int ll;
+
+// time- O(N) and space - O(N).
+ll FindMaxSum(ll array[], ll n)
+{
+	if(n == 0) return 0;
+    vector<ll> dp(n);
+    int including, notIncluding;
+	//cout << array[0];
+    including = array[0];
+    notIncluding = 0;
+    dp[0] = max(including, notIncluding);
+
+    including = array[1];
+    notIncluding = dp[0];
+    dp[1] = max(including, notIncluding);
+
+    for(ll i = 2; i < n; i++) {
+        including = array[i] + dp[i-2];
+        notIncluding = dp[i-1];
+        dp[i] = max(including, notIncluding);
+    }
+  return dp[n-1];
+}
+int main()
+{
+	int t;
+	cin>>t;
+	while(t--)
 	{
-		 int first=0;
-		while(first<array.size()-2){
-		int second= first+2;
-		for(;second<array.size();second++)
-		{
-			int currentMax=array[first]+array[second];
-			maxSum=max(currentMax,maxSum);
-		}
-		first++;
+		ll n;
+		cin>>n;
+		ll a[n];
+		for(ll i=0;i<n;++i)
+			cin>>a[i];
+		cout<<FindMaxSum(a,n)<<endl;
 	}
-		for(int i=0; i< array.size();i++){
-			maxSum=max(array[i],maxSum);
-		}
-	}
-	else{
-	 int first=0;
-	while(first<array.size()-2){
-		int second= first+2;
-		for(;second<array.size();second++){
-		int currentMax=array[first]+array[second];
-		int third= second+2;
-		for(;third<array.size();third++)
-		{
-		currentMax+=array[third];
-		maxSum=max(currentMax,maxSum);
-		currentMax-=array[third];
-		}
-		}
-		first++;
-	}		
-	}
-  return maxSum;
+	return 0;
 }
