@@ -716,4 +716,17 @@ A valid BST is defined as follows:
 
 ***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/isValidBST.cpp)
- Time complexity =  space complexity = .
+ Time complexity =O(N)  space complexity =O(1).
+ 
+ ## Problem 58
+ 
+ 
+ finding the number of ways to make a sum.
+ 
+ n= 7  coins={1,3,4,5,6,7}
+ 
+ output- 7.
+ 
+***Solution-1***
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/numberOfWaysToMakeSum.cpp)
+ Time complexity =O(N*M)  space complexity =O(n).
