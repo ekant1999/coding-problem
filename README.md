@@ -730,3 +730,13 @@ A valid BST is defined as follows:
 ***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/numberOfWaysToMakeSum.cpp)
  Time complexity =O(N*M)  space complexity =O(n).
+
+
+ ## Problem 59
+
+Given a linked list, check if the linked list has loop or not. Below diagram shows a linked list with a loop.
+
+
+***Solution-1***
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/detectLoopLinkedList.cpp)
+ Time complexity =O(N)  space complexity =O(1).
