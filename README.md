@@ -740,3 +740,14 @@ Given a linked list, check if the linked list has loop or not. Below diagram sho
 ***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/detectLoopLinkedList.cpp)
  Time complexity =O(N)  space complexity =O(1).
+
+
+ ## Problem 60
+ 
+ Find The Square root of a number.
+
+***Solution-1***
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/SquareRootUsingBinarySearchMethod.cpp)
+ Time complexity =O(logN)  space complexity =O(1).
+
+
