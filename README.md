@@ -749,5 +749,20 @@ Given a linked list, check if the linked list has loop or not. Below diagram sho
 ***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/SquareRootUsingBinarySearchMethod.cpp)
  Time complexity =O(logN)  space complexity =O(1).
+ 
+
+ ## Problem 61
+
+Given the head of a linked list, remove the nth node from the end of the list and return its head.
+
+Follow up: Could you do this in one pass?
 
 
+***Solution-1 using two passes***
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/removeNthNOdeFromEnd.cpp)
+ Time complexity =O(N)  space complexity =O(1).
+ 
+ 
+***Solution-2 using one pass***
+[Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/removeNthNOdeFromEndTwoPointer.cpp)
+ Time complexity =O(N)  space complexity =O(1).
