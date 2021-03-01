@@ -809,5 +809,5 @@ Output: [7,0,8]      Explanation: 342 + 465 = 807.
 
 ***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/addTwoNumbersLinkedList.cpp)
-Time complexity =O(N)     complexity =O(1).
+Time complexity =O(M+N)     complexity =O(M+N).
 
