@@ -785,6 +785,18 @@ Input: strs = ["eat","tea","tan","ate","nat","bat"]
 Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
 
 
-
-***Solution-1 using two passes***
+***Solution-1 using two for loop***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/groupAnagrams.cpp)
+Time complexity =O(M*(Nlog(N)+M))     complexity =O(M*N).
+
+***Solution-2 Categorize by Sorted String***
+[Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/groupAnagramsUsingSortedString.cpp)
+Time complexity =O(M*NlogN))     complexity =O(M*N).
+
+***Solution-3 using count Sorting***
+[Solution-3.cpp](https://github.com/ekant1999/coding-problem/blob/main/groupAnagramsUsingCountSorting.cpp)
+Time complexity =O(M*N))     complexity =O(M*N).
+
+
+
+
