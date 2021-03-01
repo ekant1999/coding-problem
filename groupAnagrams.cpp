@@ -1,8 +1,7 @@
-#include <bits/stdc++.h>
-using namespace std;
-
-vector<vector<string>> groupAnagrams(vector<string> words) {
-	vector<bool> check(words.size());
+class Solution {
+public:
+    vector<vector<string>> groupAnagrams(vector<string>& words) {
+       vector<bool> check(words.size());
 	vector<string> wordsCopy(words.size());
 	vector<vector<string>>  result;
 	for(int i=0 ; i<words.size(); i++)
@@ -11,7 +10,7 @@ vector<vector<string>> groupAnagrams(vector<string> words) {
 		check[i]= false;
 		sort(words[i].begin(), words[i].end()); 
 	}
-	for(int j=0; j<words.size()-1;j++)
+	for(int j=0; j<words.size();j++)
 	{
 		if(check[j]!=true){
 				vector<string>res;
@@ -28,17 +27,5 @@ vector<vector<string>> groupAnagrams(vector<string> words) {
 		}
 	}
   return result;
-}
- int main()
- {
-      vector<string> words = {"yo",  "act", "flop", "tac",
-                              "foo", "cat", "oy",   "olfp"};
-                              
-    vector<vector<string>> result=groupAnagrams(words);
-    for(vector<string> i : result){
-        for(string j : i){
-                cout << j << "   ";
-        }   
-        cout<<endl;
- }
- }
+}    
+};
