@@ -822,5 +822,9 @@ Input: s = "abcabcbb"    Output: 3
 Explanation: The answer is "abc", with the length of 3.
 
 ***Solution-1***
-[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/lengthOfLongestSubstring.cpp)
-Time complexity =O()     complexity =O(N).
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/lengthOfLongestSubstringNaive.cpp)
+Time complexity =O(N^2)     complexity =O(N).
+
+***Solution-2***
+[Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/lengthOfLongestSubstring.cpp)
+Time complexity =O(N)     complexity =O(N).
