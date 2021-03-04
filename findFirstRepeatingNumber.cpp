@@ -4,6 +4,7 @@ using namespace std;
 /*
 array= {1,2,5,2,3,5,1}
 first repeating number = 2;
+time = O(N), space= O(1);
 */
 int firstDuplicateValue(vector<int> array) { 
 	for(auto val : array)
