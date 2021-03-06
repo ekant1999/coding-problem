@@ -785,15 +785,15 @@ Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
 
 ***Solution-1 using two for loop***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/groupAnagrams.cpp)
-Time complexity =O(M*(Nlog(N)+M))     complexity =O(M*N).
+Time complexity =O(M*(Nlog(N)+M))     space complexity =O(M*N).
 
 ***Solution-2 Categorize by Sorted String***
 [Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/groupAnagramsUsingSortedString.cpp)
-Time complexity =O(M*NlogN))     complexity =O(M*N).
+Time complexity =O(M*NlogN))     space complexity =O(M*N).
 
 ***Solution-3 using count Sorting***
 [Solution-3.cpp](https://github.com/ekant1999/coding-problem/blob/main/groupAnagramsUsingCountSorting.cpp)
-Time complexity =O(M*N))     complexity =O(M*N).
+Time complexity =O(M*N))     space complexity =O(M*N).
 
 
 ## Problem 63
@@ -809,7 +809,7 @@ Output: [7,0,8]      Explanation: 342 + 465 = 807.
 
 ***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/addTwoNumbersLinkedList.cpp)
-Time complexity =O(M+N)     complexity =O(M+N).
+Time complexity =O(M+N)     space complexity =O(M+N).
 
 
 ## Problem 64
@@ -823,11 +823,11 @@ Explanation: The answer is "abc", with the length of 3.
 
 ***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/lengthOfLongestSubstringNaive.cpp)
-Time complexity =O(N^2)     complexity =O(N).
+Time complexity =O(N^2)     space complexity =O(N).
 
 ***Solution-2***
 [Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/lengthOfLongestSubstring.cpp)
-Time complexity =O(N)     complexity =O(N).
+Time complexity =O(N)     space complexity =O(N).
 
 
 ## Problem 65
@@ -849,7 +849,7 @@ Could you solve it with constant space complexity? (The output array does not co
 
 ***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/productExceptSelf.cpp)
-Time complexity =O(N)     complexity =O(N).
+Time complexity =O(N)    space complexity =O(N).
 
 
 ## Problem 66
@@ -868,6 +868,6 @@ Output: ["255.255.11.135","255.255.111.35"]
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/restoreIpAddresses.cpp)
 
 
-***Solution-1 using backtracking***
-[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/restoreIpAddressesUisngDFS.cpp)
-Time complexity =O(1)     complexity =O(1).
+***Solution-2 using backtracking***
+[Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/restoreIpAddressesUisngDFS.cpp)
+Time complexity =O(1)    space complexity =O(1).
