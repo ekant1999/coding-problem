@@ -850,3 +850,19 @@ Could you solve it with constant space complexity? (The output array does not co
 ***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/productExceptSelf.cpp)
 Time complexity =O(N)     complexity =O(N).
+
+
+## Problem 66
+
+
+Given a string s containing only digits, return all possible valid IP addresses that can be obtained from s. You can return them in any order.
+
+A valid IP address consists of exactly four integers, each integer is between 0 and 255, separated by single dots and cannot have leading zeros. For example, "0.1.2.201" and "192.168.1.1" are valid IP addresses and "0.011.255.245", "192.168.1.312" and "192.168@1.1" are invalid IP addresses. 
+
+Input: s = "25525511135"
+
+Output: ["255.255.11.135","255.255.111.35"]
+
+
+***Solution-1***
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/restoreIpAddresses.cpp)
