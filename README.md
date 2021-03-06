@@ -864,5 +864,10 @@ Input: s = "25525511135"
 Output: ["255.255.11.135","255.255.111.35"]
 
 
-***Solution-1***
+***Solution-1 using loops***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/restoreIpAddresses.cpp)
+
+
+***Solution-1 using backtracking***
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/restoreIpAddressesUisngDFS.cpp)
+Time complexity =O(1)     complexity =O(1).
