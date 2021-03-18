@@ -883,5 +883,5 @@ Output: true
 
 
 ***Solution-1 Using KMP***
-[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/KnuthMorrisPratt.cpp.cpp)
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/KnuthMorrisPratt.cpp)
 Time complexity =O(N+M)    space complexity =O(M).
