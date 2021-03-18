@@ -871,3 +871,17 @@ Output: ["255.255.11.135","255.255.111.35"]
 ***Solution-2 using backtracking***
 [Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/restoreIpAddressesUisngDFS.cpp)
 Time complexity =O(1)    space complexity =O(1).
+
+
+## Problem 67
+
+Given a text txt[0..n-1] and a pattern pat[0..m-1], write a function search(char pat[], char txt[]) that prints whether the pat[]  occured in txt[]. You may assume that n > m.
+
+Input: text = "acbacxabcdabxabcdacbacdabcy"   pattern = "cxabcdabxabc"
+
+Output: true
+
+
+***Solution-1 Using KMP***
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/KnuthMorrisPratt.cpp.cpp)
+Time complexity =O(N+M)    space complexity =O(M).
