@@ -885,3 +885,19 @@ Output: true
 ***Solution-1 Using KMP***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/KnuthMorrisPratt.cpp)
 Time complexity =O(N+M)    space complexity =O(M).
+
+
+
+## Problem 68
+
+Given a string of characters, find the length of the longest proper prefix which is also a proper suffix.
+
+Input: s = "abab"     Output: 2
+
+Explanation: "ab" is the longest proper prefix and suffix. 
+
+
+***Solution-1***
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/.cpp)
+Time complexity =O(N+M)    space complexity =O(M).
+ 
