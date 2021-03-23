@@ -898,6 +898,6 @@ Explanation: "ab" is the longest proper prefix and suffix.
 
 
 ***Solution-1***
-[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/.cpp)
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/longestPrefixSuffix.cpp)
 Time complexity =O(N+M)    space complexity =O(M).
  
