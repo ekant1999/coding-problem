@@ -900,4 +900,26 @@ Explanation: "ab" is the longest proper prefix and suffix.
 ***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/longestPrefixSuffix.cpp)
 Time complexity =O(N+M)    space complexity =O(M).
+
+
+
+## Problem 69
  
+Given N dice each with M faces, numbered from 1 to M, find the number of ways to get sum X. X is the summation of values on each face when all the dice are thrown.
+Input: M = 6, N = 3, X = 12
+
+Output: 25
+
+
+Explanation: There are 25 total ways to get the Sum 12 using 3 dices with faces from 1 to 6.
+
+
+
+***Solution-1 navive method(backtracking)***
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/diceRollSumBacktrack.cpp)
+Time complexity =O(m*n)    space complexity =O(m).
+
+
+
+***Solution-2 using Dp***
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/diceRollSumBacktrack.cpp)
