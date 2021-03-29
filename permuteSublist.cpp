@@ -1,3 +1,8 @@
+function(list) = 
+[], [1], [2], [3],
+[1, 2], [2, 1], [1, 3], [3,1], [2, 3], [3,2],
+[1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], [3, 2, 1]
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -10,12 +15,15 @@ void permuteSublist(std::vector<int> &inp, std::vector<int>  &res) {
 			cout << x << "  ";
 		cout << endl;
 	}
-	else {
+	else 
+	{
+	    int num= inp[0];
 		res.push_back(inp[0]);
 		inp.erase (inp.begin(), inp.begin() + 1);
 		permuteSublist(inp, res);
-		inp.erase (inp.begin(), inp.begin() + 1);
+		res.pop_back();
 		permuteSublist(inp, res);
+		inp.insert(inp.begin(), num);
 	}
 }
 
