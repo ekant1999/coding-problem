@@ -935,5 +935,5 @@ Each solution contains a distinct board configuration of the n-queens' placement
 
 
 ***Solution-2 using Backtracking***
-[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/nQueens.cpp)
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/nQueens.cs)
 Time complexity =O(N^2)    space complexity =O(N).
