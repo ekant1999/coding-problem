@@ -2,93 +2,91 @@ using System;
 
 public class ChessBoard
 {
-	public int rows
+	public int N
 	{
 		get;
 		set;
 	}
-
-	public int cols
-	{
-		get;
-		set;
-	}
-
 	public char[, ] arr;
-	public void createArray(int x, int y)
+	public ChessBoard()
 	{
-		for (int i = 0; i < x; i++)
+		this.N=8;
+		this.arr = new char[N, N];
+		createArray(N);
+	}
+
+	public ChessBoard(int n)
+	{
+		this.N=n;
+		this.arr = new char[n,n];
+		createArray(this.N);
+	}
+	
+	public void createArray(int n)
+	{
+		for (int i = 0; i < n; i++)
 		{
-			for (int j = 0; j < y; j++)
+			for (int j = 0; j < n; j++)
 			{
 				this.arr[i, j] = '-';
 			}
 		}
 	}
-
-	public void placeQueen(int row, int col)
+	public bool isValidMove(int row, int col)
 	{
-		this.arr[row, col] = 'Q';
-	}
+		int i, j;
+		for (i = 0; i < col; i++)
+		{
+			if (this.arr[row, i] == 'Q')
+				return false;
+		}
 
-	public void removeQueen(int row, int col)
-	{
-		this.arr[row, col] = '-';
-	}
+		for (i = row, j = col; i >= 0 && j >= 0; i--, j--)
+		{
+			if (this.arr[i, j] == 'Q')
+				return false;
+		}
 
-	public bool isValidMove(int rows, int cols)
-	{
+		for (i = row, j = col; j >= 0 && i < this.N; i++, j--)
+		{
+			if (this.arr[i, j] == 'Q')
+				return false;
+		}
+
 		return true;
 	}
 
-	public bool solveNQueens(int rows, int cols)
+	public bool solveNQueens(int cols)
 	{
-		if (cols == this.cols)
+		if (cols >= this.N)
 		{
 			ShowBoard();
 			return true;
 		}
-		else
-		{
-			for (int i = 0; i < this.rows; i++)
+			for (int i = 0; i < this.N; i++)
 			{
 				if (isValidMove(i, cols))
 				{
-					placeQueen(rows, cols);
-					bool finished = solveNQueens(i, cols + 1);
-					if(finished)
+					this.arr[i,cols]='Q';
+					bool finished = solveNQueens(cols + 1);
+					if (finished)
 						return true;
-					removeQueen(rows, cols);
+					this.arr[i,cols]='-';
 				}
 			}
-		}
-
 		return false;
 	}
 
-	public ChessBoard()
-	{
-		this.rows = 8;
-		this.cols = 8;
-		this.arr = new char[rows, cols];
-		createArray(this.rows, this.cols);
-	}
-	public ChessBoard(int x, int y)
-	{
-		this.rows = x;
-		this.cols = y;
-		this.arr = new char[this.rows, this.cols];
-		createArray(this.rows, this.cols);
-	}
+
 	public void ShowBoard()
 	{
-	for (int i = 0; i < this.rows; i++)
+		for (int i = 0; i < this.N; i++)
 		{
-			for (int j = 0; j < this.cols; j++)
+			for (int j = 0; j < this.N; j++)
 			{
 				Console.Write(this.arr[i, j] + "  ");
 			}
-
+			Console.Write("\n");
 			Console.Write("\n");
 		}
 	}
@@ -98,16 +96,7 @@ public class Program
 {
 	public static void Main()
 	{
-		ChessBoard cb = new ChessBoard();
-		bool f = cb.solveNQueens(cb.rows,cb.cols);
-		if(!f)
-    {
-      Consloe.WriteLine("No feasible solution possible");
-    }
+		ChessBoard cb = new ChessBoard(5);
+		bool f = cb.solveNQueens(0);
 	}
 }
-
-
-
-
-
