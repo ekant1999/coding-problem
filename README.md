@@ -484,11 +484,20 @@ For example if the linked list is 11->11->11->21->43->43->60 then removeDuplicat
  
  ## Problem 41
  
-Inorder tree traversal using Stack.
+Perform tree traversal using stack
 
-[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/IterativeInorderTraversal.cpp)
+[Solution-1.cpp Inorder tree traversal](https://github.com/ekant1999/coding-problem/blob/main/IterativeInorderTraversal.cpp)
  Time complexity = O(N) space complexity = O(N). 
  
+ [Solution-1.cpp Preorder tree traversal](https://github.com/ekant1999/coding-problem/blob/main/IterativePreorderTraversal.cpp)
+ Time complexity = O(N) space complexity = O(N). 
+ 
+ [Solution-1.cpp Postorder tree traversal(Two stack)](https://github.com/ekant1999/coding-problem/blob/main/IterativePostorderTraversalUsingTwoStack.cpp)
+ Time complexity = O(N) space complexity = O(N). 
+ 
+  
+ [Solution-1.cpp Postorder tree traversal one stack](https://github.com/ekant1999/coding-problem/blob/main/IterativePostorderTraversalUsingOneStack.cpp)
+ Time complexity = O(N) space complexity = O(N). 
  
  ## Problem 42
  
