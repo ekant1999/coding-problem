@@ -946,3 +946,14 @@ Each solution contains a distinct board configuration of the n-queens' placement
 ***Solution-2 using Backtracking***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/nQueens.cs)
 Time complexity =O(N^2)    space complexity =O(N).
+
+
+
+## Problem 71
+
+Given a linked list of N nodes. The task is to reverse this list.
+
+
+***Solution-2 ***
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/reverseLinkedList.cpp)
+Time complexity =O(N)    space complexity =O(1).
