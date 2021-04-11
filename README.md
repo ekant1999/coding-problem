@@ -943,7 +943,7 @@ Given an integer n, return all distinct solutions to the n-queens puzzle.
 Each solution contains a distinct board configuration of the n-queens' placement, where 'Q' and '.' both indicate a queen and an empty space, respectively.
 
 
-***Solution-2 using Backtracking***
+***Solution-1 using Backtracking***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/nQueens.cs)
 Time complexity =O(N^2)    space complexity =O(N).
 
@@ -954,6 +954,22 @@ Time complexity =O(N^2)    space complexity =O(N).
 Given a linked list of N nodes. The task is to reverse this list.
 
 
-***Solution-2 ***
+***Solution-1 ***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/reverseLinkedList.cpp)
 Time complexity =O(N)    space complexity =O(1).
+
+
+
+
+
+## Problem 72
+
+Given an array of integers nums and an integer k, return the total number of continuous subarrays whose sum equals to k.
+
+Input: nums = [1,1,1], k = 2
+
+Output: 2
+
+***Solution-1***
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/subarraySum.cpp)
+Time complexity =O(N)    space complexity =O(N).
