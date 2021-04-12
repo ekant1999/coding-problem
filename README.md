@@ -960,8 +960,6 @@ Time complexity =O(N)    space complexity =O(1).
 
 
 
-
-
 ## Problem 72
 
 Given an array of integers nums and an integer k, return the total number of continuous subarrays whose sum equals to k.
@@ -973,3 +971,21 @@ Output: 2
 ***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/subarraySum.cpp)
 Time complexity =O(N)    space complexity =O(N).
+
+
+## Problem 73
+Given an array A of n positive numbers. The task is to find the first Equilibium Point in the array. Equilibrium Point in an array is a position such that the sum of elements before it is equal to the sum of elements after it.
+
+
+Find an element in array such that sum of left array is equal to sum of right array.
+
+
+Input: 1 4 2 5    Output: 2
+
+
+Explanation: If 2 is the partition, subarrays are : {1, 4} and {5}
+
+
+***Solution-1***
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/equilibriumPoint.cpp)
+Time complexity =O(N)    space complexity =O(1).
