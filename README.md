@@ -1002,3 +1002,9 @@ Given an integer n, return the number of the beautiful arrangements that you can
 ***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/countArrangement.cpp)
 Time complexity =O(k)    space complexity =O(N).
+
+
+***Solution-2***
+[Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/countArrangementOptimized.cpp)
+Time complexity =O(k)    space complexity =O(N).
+
