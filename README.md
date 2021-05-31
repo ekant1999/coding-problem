@@ -478,7 +478,10 @@ For example if the linked list is 11->11->11->21->43->43->60 then removeDuplicat
 
 
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/deleteDuplicatesFromLinkedList.cpp)
- Time complexity = O(N) space complexity = O(N). 
+ Time complexity = O(N) space complexity = O(1).
+ 
+ [Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/deleteDuplicatesFromLinkedListV2.cpp)
+ Time complexity = O(N) space complexity = O(1).
 
 
  
