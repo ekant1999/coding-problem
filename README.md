@@ -1011,3 +1011,22 @@ Time complexity =O(k)    space complexity =O(N).
 [Solution-2.cpp](https://github.com/ekant1999/coding-problem/blob/main/countArrangementOptimized.cpp)
 Time complexity =O(k)    space complexity =O(N).
 
+
+
+## Problem 75
+
+Squares of a Sorted Array
+
+Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.
+
+Input: nums = [-4,-1,0,3,10]
+
+Output: [0,1,9,16,100]
+
+Explanation: After squaring, the array becomes [16,1,0,9,100].
+After sorting, it becomes [0,1,9,16,100].
+
+
+***Solution-1***
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/sortedSquares.java)
+Time complexity =O(N)    space complexity =O(N).
