@@ -1030,3 +1030,15 @@ After sorting, it becomes [0,1,9,16,100].
 ***Solution-1***
 [Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/sortedSquares.java)
 Time complexity =O(N)    space complexity =O(N).
+
+## Problem 76
+
+Find the smallest positive integer value that cannot be represented as sum of any subset of a given array.
+
+Input:  arr[] = {1, 1, 5, 7, 2, 22, 3};
+Output: 20
+
+
+***Solution-1***
+[Solution-1.cpp](https://github.com/ekant1999/coding-problem/blob/main/findNonConstructibleSmallest.java)
+Time complexity =O(N)    space complexity =O(1).
